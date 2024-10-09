@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Time Management</title>
+  <link rel="icon" href="https://fav.farm/🌀" />
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="header">
+	<h1 class="header__title">Progress / <span id="year_num"></span></h1>
+	
+	
+</header>
+
+<div style="text-align: center;">
+	<h3 >A little bit each day goes a really long way!</h3>
+	<h6 style="color:rgb(206, 31, 31) ;">Keep tracking and use your time wisely!</h6>
+	<h6>
+		1 Forasmuch then as Christ hath suffered for us in the flesh, arm yourselves likewise with the same mind: for he that hath suffered in the flesh hath ceased from sin; 2 That he no longer should live the rest of his time in the flesh to the lusts of men, but to the will of God. 3 For the time past of our life may suffice us to have wrought the will of the Gentiles, when we walked in lasciviousness, lusts, excess of wine, revellings, banquetings, and abominable idolatries: 4 Wherein they think it strange that ye run not with them to the same excess of riot, speaking evil of you: (1 Pt 1:1-4)
+	</h6>
+</div>
+
+<div class="day_night" id="day_night">
+	
+	<span class="day_icon">🌤️</span>
+	<span class="night_icon">🌙</span>
+</div>
+<main class="main" id="main">
+	<div class="year_progress grid-item">
+		<p>Year progress: <span id="yp_text"></span></p>
+		<div class="bar">
+			<div id="yp_bar"></div>
+		</div>
+	</div>
+	<div class="month_progress grid-item">
+		<p>Month progress: <span id="mp_text"></span></p>
+		<div class="bar">
+			<div id="mp_bar"></div>
+		</div>
+	</div>
+	<div class="day_progress grid-item">
+		<p>Day progress: <span id="dp_text"></span></p>
+		<div class="bar">
+			<div id="dp_bar"></div>
+		</div>
+	</div>
+	<div class="hour_progress grid-item">
+		<p>Hour progress: <span id="hp_text"></span></p>
+		<div class="bar">
+			<div id="hp_bar"></div>
+		</div>
+	</div>
+	<div class="days">
+		<p>Day:</p>
+		<div class="days_cont" id="days_cont"></div>
+	</div>
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
